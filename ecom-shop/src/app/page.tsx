@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import Banner from "@/components/Banner";
+import Products from "@/components/Products";
 
 export default function Home() {
   return (
     <main>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur deserunt nulla, impedit officiis minus harum magnam cumque, esse officia reiciendis libero exercitationem nobis, possimus accusantium? Debitis deserunt dolore hic veritatis.
+      <Banner />
+      <Products />
     </main>
-  )
+  );
 }
